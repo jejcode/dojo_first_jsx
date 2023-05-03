@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import Person from './components/Person'
 
 function App() {
   return (
@@ -12,6 +12,8 @@ function App() {
         <li>Take the kids to soccer</li>
         <li>Work on linkedIn profile</li>
       </ul>
+
+      <Person />
     </div>
   );
 }
